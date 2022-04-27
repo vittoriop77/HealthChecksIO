@@ -51,8 +51,6 @@ void setup(void) {
 void loop() {
   // Create a WiFiClientSecure object.
   WiFiClientSecure client;
-  // Set the fingerprint to connect the server.
-  client.setFingerprint(fingerprint);
   client.setInsecure();
   // If the host is not responding,return.
   if(!client.connect(host, httpsPort)){
