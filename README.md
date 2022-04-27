@@ -1,2 +1,2 @@
 # HealthChecksIO
-Connect to HealthChecksIO from ESP8266
+Connect to HealthChecks.IO from ESP8266
